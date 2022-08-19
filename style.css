@@ -8,6 +8,8 @@
 	--dark: #292C35;
 	--light: #F1F1F1;
 	--label: #111;
+
+  font-size: 62.5%;
 }
 
 body {
@@ -29,7 +31,11 @@ body.black {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
+
+  width: 45rem;
+  height: auto;
 
   position: absolute;
   top: 120px;
@@ -116,18 +122,19 @@ a.black {
 }
 
 @media (max-width: 500px) {
-  body {
-    overflow-y: hidden;
-  }
-
   h2 {
-    margin: 0 30px;
-    text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    width: 70%;
+
+    margin: 0 2rem;
   }
 
   .toggle {
-    width: 217px;
+    width: 21.7rem;
     height: 99px;
+  }
+
+  .toggle .ball.black {
+    left: 121px;
   }
 }
