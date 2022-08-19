@@ -91,3 +91,26 @@ h2.black {
   left: 138px;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  position: absolute;
+  bottom: 10px;
+
+  color: var(--dark);
+  opacity: 0.6;
+
+  transition: .4s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+
+  transition: .4s ease-in-out;
+}
+
+p.black,
+a.black {
+  color: var(--light);
+}
