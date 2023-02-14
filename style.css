@@ -9,6 +9,7 @@
 	--light: #F1F1F1;
 	--label: #111;
 
+  font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
 
@@ -23,7 +24,6 @@ body {
   background: var(--light);
 
   transition: .4s ease-in-out;
-
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -32,7 +32,6 @@ body.black {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
 
@@ -72,12 +71,12 @@ h2.black {
   cursor: pointer;
 }
 
-.toggle svg:nth-child(1) {
+.toggle img:nth-child(1) {
   position: absolute;
   left: 14px;
 }
 
-.toggle svg:nth-child(2) {
+.toggle img:nth-child(2) {
   position: absolute;
   right: 15px;
 }
@@ -100,7 +99,6 @@ h2.black {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   position: absolute;
   bottom: 10px;
